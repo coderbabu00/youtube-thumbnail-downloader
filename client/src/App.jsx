@@ -6,7 +6,7 @@ const App = () => {
 
   const handleDownload = async () => {
     try {
-      const response = await fetch('http://localhost:5009/getThumbnail', {
+      const response = await fetch('https://youtube-thumbnail-downloader-669j.onrender.com/getThumbnail', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

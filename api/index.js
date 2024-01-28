@@ -24,7 +24,7 @@ app.post("/getThumbnail", async (req, res) => {
 
         // Various resolutions ke liye thumbnail URLs tayar karo
         const thumbnailUrls = {
-            default: `https://img.youtube.com/vi/${videoId}/default.png`,
+            default: `https://img.youtube.com/vi/${videoId}/default.jpg`,
             medium: `https://img.youtube.com/vi/${videoId}/mqdefault.jpg`,
             high: `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`,
             standard: `https://img.youtube.com/vi/${videoId}/sddefault.jpg`,
